@@ -43,7 +43,7 @@ body {
   font-family: var(--font-family-base);
   font-size: var(--font-size-medium);
   font-weight: var(--font-weight-regular);
-  line-height: var(--line-height-base);
+  line-height: var(--font-size-large);
 }
 
 a:link {
@@ -67,6 +67,10 @@ a:active {
   display: none;
 }
 
+.card-category {
+  color: var(--color-primary);
+}
+
 .section {
   padding: var(--section-padding);
 }
@@ -74,6 +78,13 @@ a:active {
 .section-header {
   padding: var(--section-header-padding);
   text-align: var(--section-header-align);
+}
+
+.section-tagline {
+  color: var(--color-primary);
+  font-family: var(--font-family-title);
+  text-transform: var(--section-tagline-transform);
+  font-weight: var(--font-weight-bold);
 }
 
 .section-title {
@@ -91,17 +102,6 @@ a:active {
 .section-footer {
   padding: var(--section-footer-padding);
   text-align: var(--section-footer-align);
-}
-
-.card-category {
-  color: var(--color-primary);
-}
-
-.section-tagline {
-  color: var(--color-primary);
-  font-family: var(--font-family-title);
-  text-transform: var(--section-tagline-transform);
-  font-weight: var(--font-weight-bold);
 }
 
 .container {
