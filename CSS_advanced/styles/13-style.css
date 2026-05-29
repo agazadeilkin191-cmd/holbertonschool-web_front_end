@@ -36,23 +36,23 @@ body {
   line-height: var(--line-height-base);
 }
 
-/* Yalnız href atributu olan anchor elementləri hədəflənir */
+/* 1. Yalnız hyperlink (href) olan anchor elementləri */
 a[href] {
   color: var(--text-color);
   text-decoration: none;
 }
 
-/* Ziyarət olunmuş link */
+/* 2. Ziyarət olunmuş link */
 a[href]:visited {
   font-style: italic;
 }
 
-/* Hover (mausun üzərinə gəlməsi) vəziyyəti */
+/* 3. Hover (maus üzərinə gələndə) vəziyyəti */
 a[href]:hover {
   text-decoration: underline;
 }
 
-/* Aktiv (basılma) vəziyyəti */
+/* 4. Active (basılma) vəziyyəti */
 a[href]:active {
   background-color: var(--color-light-grey);
 }
