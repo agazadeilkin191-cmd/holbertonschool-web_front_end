@@ -1,0 +1,24 @@
+/* Mengatur warna teks untuk body */
+body {
+  color: #161616;
+}
+
+/* Mengatur warna teks untuk semua elemen anchor */
+a {
+  color: #161616;
+}
+
+/* Menyembunyikan elemen dengan class visually-hidden */
+.visually-hidden {
+  display: none;
+}
+
+/* Mengatur warna teks untuk class card-category */
+.card-category {
+  color: #D73953;
+}
+
+/* Mengatur warna teks untuk class section-tagline */
+.section-tagline {
+  color: #D73953;
+}
