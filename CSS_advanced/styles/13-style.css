@@ -36,23 +36,19 @@ body {
   line-height: var(--line-height-base);
 }
 
-/* 1. Target anchor elements containing a hyperlink */
 a[href] {
   color: var(--text-color);
   text-decoration: none;
 }
 
-/* 2. Target the visited state */
 a[href]:visited {
   font-style: italic;
 }
 
-/* 3. Target the hover state */
 a[href]:hover {
   text-decoration: underline;
 }
 
-/* 4. Target the active state */
 a[href]:active {
   background-color: var(--color-light-grey);
 }
